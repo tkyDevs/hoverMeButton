@@ -1,0 +1,26 @@
+body {
+  /* WE DID NOT LEARN THIS YET. THIS IS JUST TO CENTER THE BUTTON IN THE CENTER OF THE DISPLAY. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #2F4858;
+}
+
+button {
+  background: none;
+  height: 6rem;
+  width: 14rem;
+  border-style: solid;
+  font-size: 1.8rem;
+  transition: all 0.2s;
+}
+
+button:hover {
+  border-color: #1decae;
+  color: white;
+  box-shadow: rgb(31, 43, 56) 0px 20px 30px -10px;
+  transition: all 0.2s;
+  cursor: pointer;
+  transform: translateY(-0.35em);
+}
